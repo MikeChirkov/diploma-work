@@ -1,0 +1,124 @@
+{
+  "issueTypes": {
+    "DEV-DEPLOY": {
+      "transitions": {
+        "oneCityDeploy": {
+          "transitionID": 211,
+          "statusName": "Накат на один город"
+        },
+        "twoCitiesDeploy": {
+          "transitionID": 21,
+          "statusName": "Накат на два города"
+        },
+        "allCitiesDeploy": {
+          "transitionID": 591,
+          "statusName": "Освобождение пакетов"
+        },
+        "deployWait": {
+          "transitionID": 111,
+          "statusName": "Ожидание наката"
+        },
+        "oneCityError": {
+          "transitionID": 691,
+          "statusName": "Ошибки при накате на один город"
+        },
+        "twoCitiesError": {
+          "transitionID": 701,
+          "statusName": "Ошибки при накате на два города"
+        },
+        "linksAdded": {
+          "transitionID": 1291,
+          "statusName": "Связи проставлены"
+        },
+        "allCitiesError": {
+          "transitionID": 661,
+          "statusName": "Ошибки при накате на все города"
+        }
+      },
+      "fields": {
+        "type": "customfield_20200",
+        "firstCity": "customfield_25100",
+        "secondCity": "customfield_25101",
+        "deployedCities": "customfield_28100",
+        "guiltyMan": "customfield_25708",
+        "components": "components",
+        "labels": "labels",
+        "key": "key",
+        "status": "status",
+        "priority": "priority",
+        "server": "customfield_19504",
+        "creator": "creator",
+        "productMgr": "customfield_22107",
+        "coordinator": "customfield_25809",
+        "description": "description",
+        "affectedObjects": "customfield_20000",
+        "links": "issuelinks",
+        "risks": "customfield_25705",
+        "errorDev": "customfield_25706",
+        "targetGrp": "customfield_25707"
+      }
+    },
+    "DEV-DEVELOP-DEPLOY": {
+      "transitions": {
+        "oneCityDeploy": {
+          "transitionID": 211,
+          "statusName": "Накат на один город"
+        },
+        "twoCitiesDeploy": {
+          "transitionID": 21,
+          "statusName": "Накат на два города"
+        },
+        "allCitiesDeploy": {
+          "transitionID": 591,
+          "statusName": "Освобождение пакетов"
+        },
+        "deployWait": {
+          "transitionID": 111,
+          "statusName": "Ожидание наката"
+        },
+        "oneCityError": {
+          "transitionID": 691,
+          "statusName": "Ошибки при накате на один город"
+        },
+        "twoCitiesError": {
+          "transitionID": 701,
+          "statusName": "Ошибки при накате на два города"
+        },
+        "linksAdded": {
+          "transitionID": 1291,
+          "statusName": "Связи проставлены"
+        },
+        "allCitiesError": {
+          "transitionID": 661,
+          "statusName": "Ошибки при накате на все города"
+        }
+      },
+      "fields": {
+        "typeField": "customfield_20200",
+        "firstCityField": "customfield_25100",
+        "secondCityField": "customfield_25101",
+        "deployedCitiesField": "customfield_28100",
+        "guiltyManField": "customfield_25708",
+        "componentsField": "components",
+        "labelsField": "labels",
+        "keyField": "key",
+        "statusField": "status",
+        "priorityField": "priority",
+        "serverField": "customfield_19504",
+        "creatorField": "creator",
+        "assigneeField": "assignee",
+        "productMgrField": "customfield_22107",
+        "descriptionField": "description",
+        "affectedObjectsField": "customfield_20000",
+        "linksField": "issuelinks",
+        "risksField": "customfield_25705",
+        "errorDevField": "customfield_25706",
+        "targetGrpField": "customfield_25707"
+      }
+    }
+  },
+  "settings": {
+    "RestApiUrl": "https://ticket.ertelecom.ru/rest/api/2/",
+    "SearchQuery": "search?maxResults=1&jql=filter=68416"
+  }
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "name": "db",
+    "schemas": [
+      {
+        "name": "excellent",
+        "main": false
+      },
+      {
+        "name": "arm_xml",
+        "main": false
+      },
+      {
+        "name": "alien_users",
+        "main": false
+      },
+      {
+        "name": "cron_excellent",
+        "main": false
+      },
+      {
+        "name": "public_excellent",
+        "main": false
+      },
+      {
+        "name": "processing",
+        "main": false
+      },
+      {
+        "name": "bill_data_storage",
+        "Main": false
+      },
+      {
+        "name": "outbound",
+        "main": false
+      },
+      {
+        "name": "rias",
+        "main": true
+      },
+      {
+        "name": "support_excl",
+        "main": true
+      },
+      {
+        "name": "ma_excellent",
+        "main": true
+      },
+      {
+        "name": "web",
+        "main": true
+      }
+    ]
+  },
+  {
+    "name": "sa",
+    "schemas": [
+      {
+        "name": "excellent",
+        "main": false
+      },
+      {
+        "name": "arm_xml",
+        "main": false
+      },
+      {
+        "name": "alien_users",
+        "main": false
+      },
+      {
+        "name": "cron_excellent",
+        "main": false
+      }
+    ]
+  }
+]
+
+   
